@@ -6,7 +6,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
-.top-header {
+header {
 	background-color: white;
 	position: sticky;
 	top:0;
@@ -18,22 +18,22 @@ body {
 	align-items: center;
 }
 
-.top-header .name {
+header .name {
 	font-size: 26px;
 }
 
-.nav ul {
+nav ul {
 	display: flex;
 	list-style-type: none;
 	font-size: 14px;
 	margin-bottom: 0;
 }
 
-.nav li {
+nav li {
 	padding-inline: 10px;
 }
 
-.nav a {
+nav a {
 	text-decoration: none;
 	color: #000
 }
@@ -102,7 +102,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #514d27;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -190,7 +190,7 @@ body {
 	z-index: 1;
 }
 
-#contact {
+footer {
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
@@ -198,7 +198,7 @@ body {
 	padding-block: 100px;
 }
 
-#contact .container {
+footer .container {
 	display: flex;
 }
 .picture.right::before {
